@@ -1,0 +1,38 @@
+{
+    "name": "inweb/metadata",
+    "description": "Metadata for entities",
+    "keywords": [
+        "inweb",
+        "metadata",
+        "laravel"
+    ],
+    "homepage": "https://github.com/inwebcomp/metadata",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Topalo",
+            "email": "inwebcomp@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InWeb\\Metadata\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InWeb\\Metadata\\MetadataServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
